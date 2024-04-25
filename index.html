@@ -13,168 +13,227 @@
 	</head>
 	<body class="bg-slate-100">
 <!-- Hero section -->
-<nav class="bg-green-600 p-4 text-white">
-    <div class="container mx-auto flex items-center justify-between">
-        <a href="#" class="text-2xl font-bold">Campbell Gardening Services</a>
-        <div class="hidden md:flex items-center">
-            <a href="#services" class="text-white p-2 hover:bg-green-700">Services</a>
-            <a href="#contact" class="text-white p-2 hover:bg-green-700">Contact</a>
+<nav class="bg-green-700 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex">
+          <div class="-ml-2 mr-2 flex items-center md:hidden">
+            <!-- Mobile menu button -->
+            <button class="inline-flex items-center justify-center p-2 rounded-md text-green-200 hover:text-white hover:bg-green-500 focus:outline-none focus:bg-green-500 focus:text-white transition duration-150 ease-in-out">
+              <!-- Icon when menu is closed. -->
+              <!--
+                Heroicon name: menu
+  
+                Menu open: "hidden", Menu closed: "block"
+              -->
+              <svg class="block h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+              </svg>
+              <!-- Icon when menu is open. -->
+              <!--
+                Heroicon name: x
+  
+                Menu open: "block", Menu closed: "hidden"
+              -->
+              <svg class="hidden h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+              </svg>
+            </button>
+          </div>
+          <div class="flex-shrink-0 flex items-center">
+            <a href="#" class="font-bold text-xl text-white tracking-tight">Campbell Gardening Services</a>
+          </div>
+          <div class="hidden md:ml-6 md:flex md:items-center">
+            <a href="#services" class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-green-200 hover:text-white hover:border-green-300 focus:outline-none focus:text-white focus:border-green-300 transition duration-150 ease-in-out">
+              Services
+            </a>
+            <a href="#contact" class="ml-8 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-green-200 hover:text-white hover:border-green-300 focus:outline-none focus:text-white focus:border-green-300 transition duration-150 ease-in-out">
+              Contact
+            </a>
+          </div>
         </div>
+      </div>
     </div>
-</nav>
-<section class="bg-gradient-to-r from-green-700 to-green-500 py-10 ">
-    <div class="container mx-auto px-4  max-w-8xl">
-        <div class="flex flex-col md:flex-row items-center justify-between">
-            <div class="md:w-1/3 mb-8 md:mb-0">
-                <p class="text-white text-lg mb-8 md:pr-16">Want your garden looking its best? We offer a variety of services to meet your needs, from regular maintenance to one-time tidy-ups. Our reliable team can handle basic landscaping projects, keep your lawn healthy and green, and even jet wash your patio for a fresh look. We are committed to providing high-quality work. Contact us today for a free quote and see how we can transform your outdoor space!</p>
-					<div id="contact">
-						<ul class="flex gap-12 m-4 pt-6">
-
-							<li><h2 class="text-white text-lg">Contact us  </h2></li>
-							<li>
-								
-								<a href="tel:07763 797480" aria-label="telephone number 07763 797480"><i class="fa-solid fa-phone fa-2x text-white"></i></a>
-							</li>
-							<li>
-								
-								<a href="mailto:olie.campbell@hotmail.co.uk" aria-label="email address olie.campbell@hotmail.co.uk"><i class="fa-regular fa-envelope fa-2x text-white "></i></a>
-							</li>
-							<li>
-								
-								<a href="https://www.facebook.com/campbellgardeningservices" aria-label="link to facebook" target="_blank"><i class="fa-brands fa-square-facebook fa-2x text-white "></i></a>
-							</li>
-						</ul>
-					</div>
-            </div>
-            <div class="md:w-2/3">
-                <img src="../public/images/emiel-molenaar-c6___zGObUc-unsplash.jpg" alt="Butterflies in wildflowers"
-                    class="w-full object-cover overflow-hidden max-h-96 rounded-lg shadow-lg">
-            </div>
+  </nav>
+  <section class="bg-gradient-to-r from-green-700 to-green-500 py-10">
+    <div class="container mx-auto px-4 max-w-8xl">
+      <div class="flex flex-col md:flex-row items-center justify-between ">
+        <div class="md:w-1/3 mb-8 md:mb-0">
+          <p class="text-white text-lg mb-8 md:pr-16">
+            Looking to elevate your garden? Our comprehensive services cater to all your needs, from routine maintenance to one-time transformations. Our dedicated team excels in basic landscaping, lawn care, and rejuvenating patios. Quality work is our commitment. Contact us today for a free quote and witness the magic we can bring to your outdoor space!
+          </p>
+          <div id="contact">
+            <ul class="flex gap-12 m-4 pt-6">
+              <li>
+                <h2 class="text-white text-lg">Contact us</h2>
+              </li>
+              <li>
+                <a href="tel:07763 797480" aria-label="Telephone number 07763 797480">
+                  <i class="fa-solid fa-phone fa-2x text-white"></i>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:olie.campbell@hotmail.co.uk" aria-label="Email address olie.campbell@hotmail.co.uk">
+                  <i class="fa-regular fa-envelope fa-2x text-white"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/campbellgardeningservices" aria-label="Link to Facebook" target="_blank">
+                  <i class="fa-brands fa-square-facebook fa-2x text-white"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <div class="md:w-2/3">
+          <img src="../public/images/emiel-molenaar-c6___zGObUc-unsplash.jpg" alt="Butterflies in wildflowers"
+            class="w-full object-cover overflow-hidden max-h-96 rounded-lg shadow-lg">
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
 <!-- Featured section -->
-<section class="py-20" id="services">
+<section class="py-20 bg-gray-50" id="services">
     <div class="container mx-auto px-4 max-w-8xl">
-        <h2 class="text-2xl font-bold text-gray-800 mb-8">Services</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <img src="../public/images/brad-switzer-ij_22DW0-6Q-unsplash.jpg" alt="picture of a Fence"
-                    class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <h3 class="text-lg font-bold text-gray-800 mb-2">Fence installation</h3>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <img src="../public/images/serena-saponaro-JKxtUyR8WWM-unsplash.jpg" alt="picture of a Hedge"
-                    class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <h3 class="text-lg font-bold text-gray-800 mb-2">Hedge maintenance</h3>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <img src="../public/images/daniel-watson-8vBpYpTGo90-unsplash.jpg" alt="picture of a lawn"
-                    class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <h3 class="text-lg font-bold text-gray-800 mb-2">Lawn care</h3>
-                </div>
-            </div>
-			<div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <img src="../public/images/oliver-hale-oTvU7Zmteic-unsplash.jpg" alt="picture of a patio"
-                    class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <h3 class="text-lg font-bold text-gray-800 mb-2">Patio jet washing</h3>
-                </div>
-            </div>
-			<div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <img src="../public/images/mari-potter-GPMedlgb6h4-unsplash.jpg" alt="picture of working gloves on windowsill"
-                    class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <h3 class="text-lg font-bold text-gray-800 mb-2">Regular maintenance </h3>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <img src="../public/images/nagesh-badu-vYcH7pI6v1Q-unsplash.jpg" alt="landscaping"
-                    class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <h3 class="text-lg font-bold text-gray-800 mb-2">Basic landscaping</h3>
-                </div>
-            </div>
+      <h2 class="text-3xl font-semibold text-gray-800 mb-10 text-center">Our Expert Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <!-- Service Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
+          <img src="../public/images/brad-switzer-ij_22DW0-6Q-unsplash.jpg" alt="Fence installation"
+            class="w-full h-64 object-cover">
+          <div class="p-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Fence Installation</h3>
+            <p class="text-gray-600">Expertly crafted and installed fences to enhance the privacy and beauty of your outdoor space.</p>
+          </div>
         </div>
+        <!-- Service Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
+          <img src="../public/images/serena-saponaro-JKxtUyR8WWM-unsplash.jpg" alt="Hedge maintenance"
+            class="w-full h-64 object-cover">
+          <div class="p-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Hedge Maintenance</h3>
+            <p class="text-gray-600">Keep your hedges healthy and well-shaped with our professional trimming services.</p>
+          </div>
+        </div>
+        <!-- Service Card 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
+          <img src="../public/images/daniel-watson-8vBpYpTGo90-unsplash.jpg" alt="Lawn care"
+            class="w-full h-64 object-cover">
+          <div class="p-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Lawn Care</h3>
+            <p class="text-gray-600">Comprehensive lawn care services to ensure a lush, green, and healthy lawn all year round.</p>
+          </div>
+        </div>
+        <!-- Service Card 4 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
+          <img src="../public/images/oliver-hale-oTvU7Zmteic-unsplash.jpg" alt="Patio jet washing"
+            class="w-full h-64 object-cover">
+          <div class="p-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Patio Jet Washing</h3>
+            <p class="text-gray-600">Revitalize your patio with our high-pressure jet washing service, removing dirt and grime effectively.</p>
+          </div>
+        </div>
+        <!-- Service Card 5 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
+          <img src="../public/images/mari-potter-GPMedlgb6h4-unsplash.jpg" alt="Regular maintenance"
+            class="w-full h-64 object-cover">
+          <div class="p-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Regular Maintenance</h3>
+            <p class="text-gray-600">Reliable and regular upkeep for your garden, ensuring it stays in perfect condition.</p>
+          </div>
+        </div>
+        <!-- Service Card 6 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
+          <img src="../public/images/nagesh-badu-vYcH7pI6v1Q-unsplash.jpg" alt="Basic landscaping"
+            class="w-full h-64 object-cover">
+          <div class="p-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Basic Landscaping</h3>
+            <p class="text-gray-600">Transform your outdoor area with our landscaping services, tailored to create your ideal environment.</p>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
-<section class="bg-gradient-to-r from-green-700 to-green-500 py-10 ">
+  </section>
+  <section class="bg-gradient-to-r from-green-700 to-green-500 py-10">
     <div class="container mx-auto px-4 max-w-8xl">
-        <div class="flex flex-col md:flex-row items-center justify-between">
-            <div class="md:w-1/3 mb-8 md:mb-0">
-            
-                <p class="text-white text-lg mb-8 md:pr-16">If you’re interested in regular garden maintenance or just a one off tidy up contact us for a free quote today!
-					We also provide basic landscaping, lawn care and patio jet washing.</p>
-					<div>
-						<ul class="flex gap-12 m-4 pt-6">
-							<li><h2 class="text-white text-lg">Contact us  </h2></li>
-							<li>
-								
-								<a href="tel:07763 797480" aria-label="telephone number 07763 797480"><i class="fa-solid fa-phone fa-2x text-white "></i></a>
-							</li>
-							<li>
-								
-								<a href="mailto:olie.campbell@hotmail.co.uk" aria-label="email address olie.campbell@hotmail.co.uk"><i class="fa-regular fa-envelope fa-2x text-white "></i></a>
-							</li>
-							<li>
-								
-								<a href="https://www.facebook.com/campbellgardeningservices" aria-label="link to facebook" target="_blank"><i class="fa-brands fa-square-facebook fa-2x text-white "></i></a>
-							</li>
-						</ul>
-					</div>
-            </div>
-            <div class="md:w-2/3 ">
-                <img src="./public/images/erda-estremera-0ZxdAGG4aWU-unsplash.jpg" alt="Plants in pots"
-                    class="w-full object-cover overflow-hidden max-h-96 rounded-lg shadow-lg ">
-            </div>
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="md:w-1/3 mb-8 md:mb-0">
+          <p class="text-white text-lg mb-8 md:pr-16">
+            Whether you need regular garden maintenance or a one-time tidy-up, contact us today for a free quote! Our services include basic landscaping, lawn care, and patio jet washing.
+          </p>
+          <div>
+            <ul class="flex gap-12 m-4 pt-6">
+              <li>
+                <h2 class="text-white text-lg">Contact us</h2>
+              </li>
+              <li>
+                <a href="tel:07763 797480" aria-label="Telephone number 07763 797480">
+                  <i class="fa-solid fa-phone fa-2x text-white"></i>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:olie.campbell@hotmail.co.uk" aria-label="Email address olie.campbell@hotmail.co.uk">
+                  <i class="fa-regular fa-envelope fa-2x text-white"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/campbellgardeningservices" aria-label="Link to Facebook" target="_blank">
+                  <i class="fa-brands fa-square-facebook fa-2x text-white"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <div class="md:w-2/3">
+          <img src="./public/images/erda-estremera-0ZxdAGG4aWU-unsplash.jpg" alt="Plants in pots"
+            class="w-full object-cover overflow-hidden max-h-96 rounded-lg shadow-lg">
+        </div>
+      </div>
     </div>
-</section>
+  </section>
+  
 <!-- Featured section -->
 <section class="py-20">
     <div class="container mx-auto px-4 max-w-8xl">
-        <h2 class="text-2xl font-bold text-gray-800 mb-8">Reviews</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <img src="../public/images/Screenshot 2024-04-13 14.21.54.png" alt="Testimonials"
-                    class="w-full  h-auto object-cover">
-                
-            </div>
-            <div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <img src="../public/images/Screenshot 2024-04-13 14.23.21.png" alt="Testimonials"
-                    class="w-full h-auto object-cover">
-               
-            </div>
-            <div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <img src="../public/images/Screenshot 2024-04-13 14.24.10.png" alt="Testimonials"
-                    class="w-full h-auto object-cover">
-               
-            </div>
-			
-           
+      <h2 class="text-2xl font-bold text-gray-800 mb-8">Customer Reviews</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Testimonial 1 -->
+        <div class="bg-white rounded-lg shadow-xl overflow-hidden">
+          <img src="../public/images/Screenshot 2024-04-13 14.21.54.png" alt="Testimonial 1"
+            class="w-full h-auto object-cover">
         </div>
+        <!-- Testimonial 2 -->
+        <div class="bg-white rounded-lg shadow-xl overflow-hidden">
+          <img src="../public/images/Screenshot 2024-04-13 14.23.21.png" alt="Testimonial 2"
+            class="w-full h-auto object-cover">
+        </div>
+        <!-- Testimonial 3 -->
+        <div class="bg-white rounded-lg shadow-xl overflow-hidden">
+          <img src="../public/images/Screenshot 2024-04-13 14.24.10.png" alt="Testimonial 3"
+            class="w-full h-auto object-cover">
+        </div>
+	      </div>
     </div>
-</section>
-<section class="bg-gradient-to-r from-green-700 to-green-500 py-10">
+  </section>
+  
+  <section class="bg-gradient-to-r from-green-700 to-green-500 py-10">
     <div class="container mx-auto px-4 max-w-8xl">
         <div class="flex flex-col md:flex-row items-center justify-between">
             <div class="md:w-full mb-8 md:mb-0">
-                <h1 class="text-white font-bold text-3xl leading-tight mb-6">Campbell Gardening Services</h1>
-                <p class="text-white text-lg mb-8 md:pr-16">10 Silver Street,
-                    Great Barford,
-                    United Kingdom<br />olie.campbell@hotmail.co.uk <br />tel:07763 797480</p>
-					
+                <h1 class="text-white font-bold text-4xl leading-tight mb-6">Campbell Gardening Services</h1>
+                <p class="text-white text-lg mb-8 md:pr-16">
+                    10 Silver Street,<br>
+                    Great Barford,<br>
+                    United Kingdom<br>
+                    <a href="mailto:olie.campbell@hotmail.co.uk" class="text-green-200 hover:underline">olie.campbell@hotmail.co.uk</a><br>
+                    Tel: <a href="tel:+447763797480" class="text-green-200 hover:underline">07763 797480</a>
+                </p>
             </div>
-            
         </div>
     </div>
-</section>		
+</section>
+
 <footer class="bg-green-600 p-4 text-center text-white">
     <p>&copy; 2024 Campbell Gardening Services</p>
 </footer>
