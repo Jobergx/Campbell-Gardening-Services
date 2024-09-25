@@ -60,7 +60,7 @@ a[data-wf-focus-visible] {
 }
 
 .section {
-  background-color: #679f4b;
+  background-color: #13742380;
   box-shadow: 0 2px 5px 5px #0003;
 }
 
@@ -116,6 +116,8 @@ a[data-wf-focus-visible] {
 
 .body {
   text-transform: none;
+  background-color: #fff;
+  background-image: linear-gradient(#13742340, #13742340);
   font-family: PT Serif, serif;
   font-size: 18px;
   line-height: 1.25;
@@ -124,10 +126,12 @@ a[data-wf-focus-visible] {
 .container-2 {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
+  background-color: #fff;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
+  box-shadow: 3px 3px 5px 3px #0003;
 }
 
 .img {
@@ -177,16 +181,16 @@ a[data-wf-focus-visible] {
 
 .container-3 {
   color: #000;
-  background-color: #679f4b;
+  background-color: #fff;
   border-radius: 4px;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding-top: 0;
   padding-bottom: 0;
   display: flex;
-  box-shadow: 0 2px 5px 5px #0003;
+  box-shadow: 3px 3px 5px 3px #0003, 0 2px 5px 5px #0003;
 }
 
 .container-3.copy-footer {
@@ -197,7 +201,9 @@ a[data-wf-focus-visible] {
 }
 
 .container-4 {
-  background-color: #0000;
+  background-color: #fff;
+  border-radius: 0;
+  box-shadow: 3px 3px 5px 3px #0003;
 }
 
 .link-block {
@@ -215,7 +221,7 @@ a[data-wf-focus-visible] {
 }
 
 .section-3 {
-  background-color: #679f4b;
+  background-color: #fff;
   justify-content: center;
   height: auto;
   min-height: 60px;
@@ -238,6 +244,11 @@ a[data-wf-focus-visible] {
 
 .heading-8 {
   display: block;
+}
+
+.quick-stack {
+  background-color: #fff;
+  box-shadow: 3px 3px 5px 3px #0003;
 }
 
 @media screen and (max-width: 991px) {
@@ -270,8 +281,7 @@ a[data-wf-focus-visible] {
   }
 
   .container-3 {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
   }
 
   .heading-3 {
@@ -331,7 +341,9 @@ a[data-wf-focus-visible] {
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   .text-block.copyright {
@@ -410,8 +422,8 @@ a[data-wf-focus-visible] {
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 20px 10px;
+    padding-bottom: 10px;
   }
 
   .text-block.copyright {
